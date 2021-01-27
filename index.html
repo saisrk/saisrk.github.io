@@ -1,1 +1,64 @@
-Hello world
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid" style="margin: 40px 40px;">
+      <div class=button-group>
+          <button type="button" class="btn btn-dark" id='two' onClick="reply_click(this.id)">2</button>
+          <button type="button" class="btn btn-dark" id='three' onClick="reply_click(this.id)">3</button>
+          <button type="button" class="btn btn-dark" id='four' onClick="reply_click(this.id)">4</button>
+          <button type="button" class="btn btn-dark" id='five' onClick="reply_click(this.id)">5</button>
+          <button type="button" class="btn btn-dark" id='six' onClick="reply_click(this.id)">6</button>
+          <button type="button" class="btn btn-dark" id='seven' onClick="reply_click(this.id)">7</button>
+          <button type="button" class="btn btn-dark" id='eight' onClick="reply_click(this.id)">8</button>
+          <button type="button" class="btn btn-dark" id='nine' onClick="reply_click(this.id)">9</button>
+          <button type="button" class="btn btn-dark" id='ten' onClick="reply_click(this.id)">10</button>
+          <button type="button" class="btn btn-dark" id='jack' onClick="reply_click(this.id)">J</button>
+          <button type="button" class="btn btn-dark" id='queen' onClick="reply_click(this.id)">Q</button>
+          <button type="button" class="btn btn-dark" id='king' onClick="reply_click(this.id)">K</button>
+          <button type="button" class="btn btn-dark" id='ace' onClick="reply_click(this.id)">A</button>  
+      </div>
+      <div class=result>
+      <div class="row">
+        <h2>Current card count:<br>
+        <label id="cccount"></label></h2>
+        
+      </div>
+      <div class="row">
+        <h2>True count:<br>
+        <label id="tcount"></label></h2>
+      </div>
+      <div class="row">
+        <h2>Total cards dealt:<br>
+        <label id="tcardsd"></label></h2>
+      </div>
+      <div class="row">
+        <h2>Total cards pending:<br>
+        <label id="tcardsp"></label></h2>
+      </div>
+      <div class="row">
+        <h2>Bet required:<br>
+        <label id="betreq"></label></h2>
+      </div>
+    </div>  
+  </div>  
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="cardcounter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
